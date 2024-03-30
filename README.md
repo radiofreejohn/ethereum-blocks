@@ -18,7 +18,7 @@ A clone of an already great blocks subgraph, but this one prunes history so you 
 ## Historic Blocks as old as N blocks (defined by prune configuration in subgraph.yaml)
 
 ```graphql
-{w
+{
   blocks(block: { number: 404100 }){
     id
     number
