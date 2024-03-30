@@ -7,7 +7,7 @@ A clone of an already great blocks subgraph, but this one prunes history so you 
 ## Latest Block
 ```graphql
 {
-  blocks(id:"latest_block"){
+  block(id:"latest_block"){
     id
     number
     timestamp
