@@ -23,4 +23,4 @@ dataSources:
         - handler: handleBlock
       file: ./src/mappings/blocks.ts
 indexerHints:
-  prune: 302400
+  prune: 2386800
