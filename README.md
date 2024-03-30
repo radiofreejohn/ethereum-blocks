@@ -26,3 +26,9 @@ A clone of an already great blocks subgraph, but this one prunes history so you 
   }
 }
 ```
+
+# Building
+
+`yarn install && yarn codegen && yarn build`
+
+Configurerd to deploy to [Goldsky](https://goldsky.com), but should work with other subgraph providers.
