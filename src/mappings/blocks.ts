@@ -1,13 +1,13 @@
 import {
-    EthereumBlock
+    ethereum 
 } from "@graphprotocol/graph-ts"
 
 import {
     Block
 } from "../../generated/schema"
 
-export function handleBlock(block: EthereumBlock): void {
-    let id = block.hash.toHex()
+export function handleBlock(block: ethereum.Block): void {
+    let id = "latest_block"
     let blockEntity = new Block(id);
     blockEntity.number = block.number;
     blockEntity.timestamp = block.timestamp;
