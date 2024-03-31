@@ -36,6 +36,6 @@ Configurerd to deploy to [Goldsky](https://goldsky.com), but should work with ot
 # Configuration
 
 Make sure to edit:
-- prune: set this to the number of blocks to keep behind the head block of the chain, I refer to this as N.
-- startBlock: this can be the most recent block to make indexing fast, or the startBlock-N blocks to index the past N blocks.
-- network: this should work on any EVM network, so change the network to match the network you want to index blocks for.
+- `prune`: set this to the number of blocks to keep behind the head block of the chain, I refer to this as N.
+- `startBlock`: this can be the most recent block to make indexing fast, or the startBlock-N blocks to index the past N blocks.
+- `network`: this should work on any EVM network, so change the network to match the network you want to index blocks for.
