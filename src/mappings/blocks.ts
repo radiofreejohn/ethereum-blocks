@@ -9,7 +9,7 @@ import {
 export function handleBlock(block: ethereum.Block): void {
     let id = "latest_block"
     let blockEntity = new Block(id);
-    blockEntity.hash = block.hash;
+    blockEntity.hash = block.hash.toHex();
     blockEntity.number = block.number;
     blockEntity.timestamp = block.timestamp;
     blockEntity.parentHash = block.parentHash.toHex();
