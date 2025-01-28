@@ -6,9 +6,9 @@ schema:
 dataSources:
   - kind: ethereum/contract
     name: ConverterRegistryContract
-    network: telos
+    network: rootstock
     source:
-      startBlock: 331355386
+      startBlock: 1
       address: "0x0ddff327ddf7fe838e3e63d02001ef23ad1ede8e"
       abi: ConverterRegistryContract
     mapping:
@@ -24,4 +24,4 @@ dataSources:
         - handler: handleBlock
       file: ./src/mappings/blocks.ts
 indexerHints:
-  prune: 2386800
+  prune: 100
